@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #e3e3e3;
+  background: #white;
   width: 100%;
   min-height: 100vh;
   position: absolute;
@@ -121,7 +121,7 @@ p {
   height: 100%;
   max-height: 750px;
   overflow: auto;
-  background-color: #e3e3e3;
+  background-color: #f0f0f0;
 }
 
 .modal-content {
