@@ -46,8 +46,7 @@ nav ul{
 nav li {
   display: inline-block;
   position: relative;
-  float: right;
-  margin-right: -30px;
+  flex-direction: row;
 }
 
 nav a {
@@ -87,23 +86,23 @@ p {
 }
 
 .preview {
-  width: 75%;
+  width: 50%;
   margin-bottom: 20px;
 }
 
 .row {
   display: block;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:
 }
 
 .row > .col {
-  padding: 15px 8px;
+  padding: 0px 0px;
 }
 
 .col {
-  float: left;
-  width: 50%;
+  float: center;
+  width: 100%;
 }
 
 /* Now you want to define what the lightbox will look like. Note that you have the display
@@ -142,13 +141,18 @@ p {
   display: none;
 }
 
-.image-slide-vertical {
+.image-slide-vertical-1 {
   width: 45%;
   padding: 10px;
 }
 
+.image-slide-vertical-2{
+  width: 10%;
+  padding: 10px;
+}
+
 .image-slide-horizontal {
-  width: 90%;
+  width: 80%;
   padding: 10px;
 }
 
